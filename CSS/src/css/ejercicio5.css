@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding:0;
+}
+
+.box-opiniones {
+  display: flex;
+  flex-direction: column;
+ /* align-items: center;*/
+  justify-content: center; /*centrando todas las opiniones en el eje vertical */
+ /* background-color: #b5f0c4;*/
+  font-family: sans-serif;
+ /* margin-top: 20px;*/
+  padding: 100px 160px; /* 160px a la izquierda y derecha, 0 arriba y abajo */
+  gap: 160px;
+}
+.box-fila {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /*justify-content: space-between; */
+ /* background-color: #1f79c2;*/
+ /* padding: 0 12px; /* 120px a la izquierda y derecha, 0 arriba y abajo */
+  gap: 350px; 
+  /* height: 390px;*/
+  }
+
+.box-img{
+  height: 460px;
+  width: 50%;
+/*  background-color: #fcdc0c;*/
+}
+.box-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5%;
+ /* box-shadow: 100px 30px 50px rgba(38, 168, 227, 0.1);*/
+  clip-path: inset(0px); /* Recorta 10px de cada borde */
+  object-fit: cover; /* Ajusta la imagen para que cubra el recuadro */
+}
+
+.box-txt {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  gap: 40px;
+/*  background-color: #ebbde4;*/
+}
+
+.box-txt h3 {
+  font-size: 60px;
+  line-height: 60px;
+  text-align: left;
+}
+.box-txt p {
+  font-size: 32px;
+  line-height: 40px;
+  text-align: justify;
+}
